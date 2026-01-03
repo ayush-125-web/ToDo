@@ -1,0 +1,112 @@
+.title{
+    font-family: Arial;
+    background-color: orange;
+    padding-left:150px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:bold;
+    color:white;
+    font-size:30px;
+}
+
+.input{
+    height:30px;
+    width:200px;
+    padding-left:15px;
+
+}
+
+.dated{
+    height:32px;
+    padding-left:15px;
+    width:150px;
+
+}
+
+.add{
+    background-color: green;
+    height:32px;
+    margin-left:10px;
+    color:white;
+    border:none;
+    width:60px;
+    font-size: 18px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    
+}
+
+.delete{
+    background-color:red;
+    height:32px;
+    margin-left:10px;
+    color:white;
+    border:none;
+    width:60px;
+    font-size: 18px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-right:60px;
+
+}
+
+.reset{
+
+    background-color:blue;
+    height:32px;
+    margin-left:10px;
+    color:white;
+    border:none;
+    width:60px;
+    font-size: 18px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+}
+
+.dated,
+.input,
+.deadline{
+    outline:none;
+    color:grey;
+}
+
+body{
+    background-color: rgb(85, 82, 82);
+    font-family: Arial;
+}
+
+
+.delete{
+    vertical-align: auto;
+    margin-left:auto;
+}
+
+.task{
+    font-family:Arial;
+    color:white;
+}
+
+.toDoList{
+    display:grid;
+    grid-template-columns: 220px 180px 105px 10px;
+    margin-top: 20px;
+    margin-left:5px;
+    align-items: center;
+    row-gap: 10px;
+   
+}
+
+.taskName,
+.due-date,
+.due-time{
+    color:white;
+}
+
+.deadline{
+    width:80px;
+    height:30px;
+    padding-left: 15px;
+}
+
+

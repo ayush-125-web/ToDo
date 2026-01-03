@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="toDo.css">
+   <title>ToDO List</title>
+
+</head>
+
+<body>
+    <p class="title">
+        ToDo List Practice 
+    </p>
+
+    <input type="text" class="input" placeholder="Todo name" onkeydown="key(event)">
+    <input type="date" class="dated" placeholder="dd/mm/yy" onkeydown="key(event)">
+    <input type="time" class="deadline" placeholder="hh/min" onkeydown="key(event)">
+
+    <button class="add" onclick="
+        addTask()">
+        Add
+    </button>
+
+   
+
+    <button class="reset" onclick="reset()">
+        reset
+    </button>
+
+    <div class="toDoList "></div>
+
+    <script src="toDo.js">
+       
+    </script>
+</body>
+
+</html>
